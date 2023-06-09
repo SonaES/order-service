@@ -11,7 +11,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.javatechie.aws.cicd.example")
 @RestController
 @RequestMapping("/orders")
 public class OrderServiceApplication {
